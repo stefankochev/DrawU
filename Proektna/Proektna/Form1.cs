@@ -13,9 +13,7 @@ namespace Proektna
 {
     public partial class Form1 : Form
     {
-        Bitmap buffer;
         bool actorStripSelected;
-        bool actorToRedraw;
         bool lineStripSelected;
         bool ellipseStripSelected;
         UseCaseDiagramDocument Elements;
@@ -616,12 +614,6 @@ namespace Proektna
         {
             toolStripMobile.BackColor = toolStripHover;
         }
-
-        private void toolStripMobile_MouseHover(object sender, EventArgs e)
-        {
-            //toolStripMobile.BackColor = toolStripHover;
-        }
-
         private void toolStripMobile_MouseLeave(object sender, EventArgs e)
         {
             toolStripMobile.BackColor = toolStripNotHover;
@@ -786,7 +778,7 @@ namespace Proektna
         }
         public void newDocument()
         {
-            if(MessageBox.Show("Дали сакате да отворите нов документ?","Нов документ",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
+            if(MessageBox.Show("Дали сакате да отворите нов документ?","Нов документ?",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
             {
                 Elements = new UseCaseDiagramDocument();
                 toolStripMobile.Visible = false;
