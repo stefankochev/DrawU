@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -96,12 +96,6 @@ namespace Proektna
             ellipseStripSelected = false;
             this.Cursor = Cursors.Default;
         }
-
-        private void toolStripStatusLabel1_Paint(object sender, PaintEventArgs e)
-        {
-            //toolStripStatusLabel1.Text = MouseButtons.Left.ToString();
-        }
-
         private void toolStripActor_Click(object sender, EventArgs e)
         {
             unselectToolStrips();
@@ -841,17 +835,17 @@ namespace Proektna
             }
             Invalidate(true);
         }
-        public void undo()
+        public void undo()         
         {
-            if(!undoDone)
+            if(!undoDone)           //if undo is not done yet
             {
                 undoDone = true;
                 redoDone = false;
-                redoElements = new UseCaseDiagramDocument(Elements);
+                redoElements = new UseCaseDiagramDocument(Elements);  //save the elements for redo, deep copy
                 Elements = new UseCaseDiagramDocument(undoElements);
-                undoElements = new UseCaseDiagramDocument();
+                undoElements = new UseCaseDiagramDocument();          //delete the undo elements
                 toolStripMobile.Visible = false;
-                Invalidate(true);
+                Invalidate(true);            //repaint
             }
         }
         public void redo()
@@ -964,7 +958,7 @@ namespace Proektna
         {
             if (fileName == null)
             {
-                if (MessageBox.Show("Дали сакате да ја зачувате вашата работа?", "Зачувај последни примени", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Дали сакате да ја зачувате вашата работа?", "Зачувај последни прoмени?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     save();
                 }
