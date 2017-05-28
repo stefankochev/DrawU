@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -329,8 +329,8 @@ namespace Proektna
             if (!Selected)
                 Selected = isOnLine;
         }
-        public override bool Equals(object obj)
-        {
+        public override bool Equals(object obj)         //Method to compare two objects if they are
+        {                                               //from the same class and have the same attributes    
             if (!(obj is Line))
                 return false;
             Line l = obj as Line;
