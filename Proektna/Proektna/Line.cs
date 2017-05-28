@@ -136,6 +136,7 @@ namespace Proektna
                 SolidBrush brush = new SolidBrush(Color.Red);
                 g.FillRectangle(brush, X1 - 3, Y1 - 3, 6, 6);
                 g.FillRectangle(brush, X2 - 3, Y2 - 3, 6, 6);
+                brush.Dispose();
             }
         }
 
