@@ -894,6 +894,7 @@ namespace Proektna
                 fileName = op.FileName;
                 FileStream sm = new FileStream(fileName, FileMode.Open);
                 Elements = fm.Deserialize(sm) as UseCaseDiagramDocument;
+                toolStripMobile.Visible = false;
             }
         }
 
