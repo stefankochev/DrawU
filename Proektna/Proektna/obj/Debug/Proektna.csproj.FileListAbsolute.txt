@@ -167,3 +167,17 @@ C:\Users\Stefan\Desktop\New folder (6)\Proektna\Proektna\obj\Debug\Proektna.Prop
 C:\Users\Stefan\Desktop\New folder (6)\Proektna\Proektna\obj\Debug\Proektna.csproj.GenerateResource.Cache
 C:\Users\Stefan\Desktop\New folder (6)\Proektna\Proektna\obj\Debug\Proektna.exe.manifest
 C:\Users\Stefan\Desktop\New folder (6)\Proektna\Proektna\obj\Debug\Proektna.application
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\bin\Debug\Proektna.exe.config
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\obj\Debug\Proektna.exe
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\obj\Debug\Proektna.pdb
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\bin\Debug\Proektna.exe.manifest
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\bin\Debug\Proektna.application
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\bin\Debug\Proektna.exe
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\bin\Debug\Proektna.pdb
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\obj\Debug\Proektna.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\obj\Debug\Proektna.Form1.resources
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\obj\Debug\Proektna.HelpForm.resources
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\obj\Debug\Proektna.Properties.Resources.resources
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\obj\Debug\Proektna.csproj.GenerateResource.Cache
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\obj\Debug\Proektna.exe.manifest
+C:\Users\Stefan\Documents\GitHub\DrawU\Proektna\Proektna\obj\Debug\Proektna.application

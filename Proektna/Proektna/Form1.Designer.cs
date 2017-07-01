@@ -576,7 +576,6 @@
             this.toolStripMobile.Visible = false;
             this.toolStripMobile.MouseEnter += new System.EventHandler(this.toolStripMobile_MouseEnter);
             this.toolStripMobile.MouseLeave += new System.EventHandler(this.toolStripMobile_MouseLeave);
-            this.toolStripMobile.MouseHover += new System.EventHandler(this.toolStripMobile_MouseHover);
             // 
             // toolStripMobilebtnFillColor
             // 
